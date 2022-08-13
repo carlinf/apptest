@@ -21,7 +21,7 @@
 
     async function main(){
 
-        let request = await fetch("http://localhost:3000/books", {method: "GET"});
+        let request = await fetch("/books", {method: "GET"});
         let data = await request.json()
         
 
